@@ -16,7 +16,8 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginTop="200dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
 
     <LinearLayout
         android:layout_marginTop="20dp"
@@ -35,7 +36,8 @@
             android:text="Welcome"
             android:textColor="#000"
             android:textAlignment="center"
-            android:textSize="36dp"/>
+            android:textSize="36sp"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:layout_marginBottom="15dp"
@@ -44,13 +46,14 @@
             android:text="Please, enter your name"
             android:textColor="#9f9f9f"
             android:textAlignment="center"
-            android:textSize="18dp"/>
+            android:textSize="18dp"
+            android:gravity="center_horizontal" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Start!"
-            android:background="@color/colorAccent"
+            android:background="@color/colorAccent" />
 
 
 
