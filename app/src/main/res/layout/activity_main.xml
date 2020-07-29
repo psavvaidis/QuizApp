@@ -61,13 +61,14 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp">
+                android:layout_marginBottom="20dp"
+                android:hint="Name" >
                 <!--Name Text Field-->
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/player_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Name" />
+                    android:text=""/>
                 <!-- Start Button-->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/action_btn"

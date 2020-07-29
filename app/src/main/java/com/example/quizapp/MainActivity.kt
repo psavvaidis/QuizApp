@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
         action_btn.setOnClickListener{
-            if(action_btn.text.toString().isEmpty()){
+            if(player_name.text.toString().isEmpty()){
                 Toast.makeText(
                     this,
                     "You must enter your name to play",
