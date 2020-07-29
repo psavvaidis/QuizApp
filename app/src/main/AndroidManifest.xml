@@ -13,14 +13,16 @@
 
         <activity
             android:name=".QuizQuestionActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
         </activity>
 
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBarTheme"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
