@@ -12,7 +12,19 @@ class QuizQuestionActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz_question)
 
         val questionsList = Constants.getQuestions()
-        questionsnum.text = "Questions Size ${questionsList.size}"
         Log.i("Questions Size", "${questionsList.size}")
+
+        val curPos = 1
+        val curQuestion: Question? = questionsList[curPos - 1]
+
+        pb_progress.progress = curPos
+        tv_progress.text = "$curPos" + "/" + "${pb_progress.max}"
+
+        tv_question.text = curQuestion!!.question
+        iv_image.setImageResource(curQuestion.image)
+        tv_option_one.text = curQuestion.options[0]
+        tv_option_two.text = curQuestion.options[1]
+        tv_option_three.text = curQuestion.options[2]
+        tv_option_four.text = curQuestion.options[3]
     }
 }
