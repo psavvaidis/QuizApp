@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_weight="1"
-                android:max="10"
+                android:max="3"
                 android:minHeight="50dp"
                 android:progress="0"
                 android:indeterminate="false"/>
@@ -60,7 +60,7 @@
                 android:gravity="center"
                 android:textColor="#7A8089"
                 android:textSize="14sp"
-                android:text="0/10"/>
+                android:text="0/3"/>
 
         </LinearLayout>
 
